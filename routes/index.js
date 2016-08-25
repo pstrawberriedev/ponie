@@ -4,14 +4,14 @@ var router = express.Router();
 // Set up global object
 var global = {
   
-  title:"ponie.club",
-  desc: ""
+  title:"PONIE CLUB"
+  //desc: "description"
   
 };
 
 /* GET home */
 router.get('/', function(req, res) {
-	
+  
   
   res.render('home', { 
     page: 'Home',
