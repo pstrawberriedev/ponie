@@ -9,20 +9,19 @@
   position:relative;
   overflow:hidden;
   .transition(all 0.2s ease);
-  
+    
     .feedback-ink {
       display: block;
       position: absolute;
       background:rgba(255, 255, 255, 0.3);
       border-radius: 100%;
       .transform(scale(0));
-
     }
-  
+    
     &.feedback-dark {
       .feedback-ink {background:rgba(0, 0, 0, 0.2);}
     }
-  
+    
     .animate {.animation(ripple 0.5s linear);}
     .keyframes( ripple;{100% {opacity: 0; .transform(scale(2.5));}});
 }
