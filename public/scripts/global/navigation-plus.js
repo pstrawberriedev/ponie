@@ -67,8 +67,8 @@ function doTheHammy(option) {
     var $third = $trigger.find('.hammy-special .thi');
 
     if (option === "open") {
-        TweenLite.to($first, .35, { rotation: "-50px", autoAlpha: 0, ease: Power1.easeInOut });
-        TweenLite.to($second, .35, { y: 7, rotation: "-50px", ease: Power1.easeInOut });
+        TweenLite.to($first, .35, { rotation: "-360px", autoAlpha: 0, ease: Power1.easeInOut });
+        TweenLite.to($second, .35, { y: 7, rotation: "-230px", ease: Power1.easeInOut });
         TweenLite.to($third, .35, { y: "-7px", rotation: 50, ease: Power1.easeInOut });
         $trigger.addClass('on');
     }
